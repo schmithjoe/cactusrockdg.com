@@ -227,6 +227,7 @@ h3 {
 .layer h3 {
     width: 100%;
     font-weight: 500;
+    margin: auto;
     color: white;
     font-size: 26px;
     bottom: 0;
