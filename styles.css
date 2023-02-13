@@ -171,6 +171,13 @@ p {
     width: 200px;
 }
 
+.about-col .icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    justify-content: space-evenly;
+}
+
 h3 {
     text-align: center;
     font-weight: 600;
@@ -206,6 +213,7 @@ h3 {
 
 .gallery-col img {
     width: 100%;
+    aspect-ratio: 16/9;
     height: 100%;
     display: block;
 }
@@ -256,7 +264,7 @@ h3 {
     font-weight: 600;
 }
 
-.icons .fa {
+.footer .icons .fa {
     color: f44336;
     margin: 0 13px;
     cursor: pointer;
@@ -363,6 +371,6 @@ h3 {
     padding: 15px;
     margin-bottom: 17px;
     outline: none;
-    border: 1px solid ccc;
+    border: 1px solid #ccc;
     box-sizing: border-box;
 }
